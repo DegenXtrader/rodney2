@@ -231,7 +231,7 @@ body.active { overflow: hidden; }
 .h1,
 .h2,
 .h3 {
-  color: black;
+  color: #777;
   line-height: 1.2;
 }
 

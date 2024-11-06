@@ -7,7 +7,7 @@
   
   --cadet-blue-crayola: hsl(227, 13%, 73%);
   --maximum-yellow-red: hsl(41, 95%, 61%);
-  --medium-sea-green: hsl(142, 43%, 54%);
+  --medium-sea-green: rgb(#eee920);
   --blue-crayola_10: hsla(222, 100%, 61%, 0.05);
   --smocky-black_30: hsla(0, 0%, 6%, 0.3);
   --eerie-black-1: #0d0c22;
@@ -135,7 +135,7 @@ html {
 
 body {
   background-color:#eee920;
-  color: var(--cadet-blue-crayola);
+  color: #777;
   font-size: 1.6rem;
   line-height: 1.4;
 }
@@ -231,7 +231,7 @@ body.active { overflow: hidden; }
 .h1,
 .h2,
 .h3 {
-  color: #777;
+  color:#777;
   line-height: 1.2;
 }
 
@@ -244,7 +244,7 @@ body.active { overflow: hidden; }
 .w-100 { width: 65%; }
 .w-200 { width: 85%; }
 .badge {
-  color: var(--white);
+  color: black;
   font-size: var(--fs-8);
   font-weight: var(--fw-700);
   padding: 4px 8px;
@@ -403,6 +403,8 @@ body.active { overflow: hidden; }
 .hero-text {
   font-size: var(--fs-5);
   margin-block: 25px 40px;
+ 
+
 }
 
 
@@ -444,7 +446,7 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.trend-tab .tab-btn.active { background-color: var(--blue-crayola); }
+.trend-tab .tab-btn.active { background-color: white ; }
 
 .trend-tab .tab-content {
   display: grid;

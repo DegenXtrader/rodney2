@@ -597,7 +597,7 @@ body.active { overflow: hidden; }
 }
 
 .market-table .add-to-fav {
-  color: black;
+  color: var(--cadet-blue-crayola);
   font-size: 18px;
 }
 
